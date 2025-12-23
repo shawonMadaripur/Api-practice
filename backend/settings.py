@@ -54,6 +54,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True 
+CSRF_TRUSTED_ORIGINS = [
+    "https://api-practice-wmvp.onrender.com"
+]
 
 ROOT_URLCONF = 'backend.urls'
 
